@@ -1,0 +1,21 @@
+PHP NOTAS
+
+Para iniciar Servidor
+php -S localhost:5560
+
+Variables en PHP
+$hola = "Juan";
+$edad = 17;
+
+Variables Globales
+define('LogoUrl','url');
+
+Variables Locales
+const nombre = 'Juan';
+
+Para casos en PHP
+$outputAge = match (true) {
+    $edad < 2   => "Eres un bebe, $name",
+    $edad < 10 => "Eres un niño, $name",
+    default     => "Eres adulto, $name",
+};
